@@ -20,7 +20,6 @@ aside{
 .image img{
     height: 3rem;
     border-radius: 50%;
-    
 }
 
 .top{
@@ -63,7 +62,7 @@ aside{
 
 button {
     background-color: #A491D2;
-    color: #CDC3E6;
+    color: #fafafc;
     border: none;
     padding: 0.9rem 1rem;
     font-size: 1rem;
@@ -81,7 +80,7 @@ button:hover {
     justify-content: center;
     padding: 1rem;
     border-bottom: #c9c8c8 solid 1px;
-    background-color: #f0eded;
+    background-color: #eae7e7;
 }
 
 .chats {    
