@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;500&family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif
+}
+
+.container{
+    display: flex;
+}
+
+aside{
+    width: 30%;
+    height: 3 rem;
+    border-radius: 50%;
+}
+
+.image img{
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #949191 solid 1px;
+    padding: 0.7rem 1.25rem 0.7rem 1.6rem;
+}
+
+.first{
+    display: flex;
+}
+
+.first-text{
+    padding-left: 1.2rem;
+}
+
+.first-text-h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 1rem 0 0.5rem;
+}
+
+.first-text p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #b7b8b8;
+    line-height: 0.5rem;
+}
+
+.icons {
+    color: #949191
+}
+
+.fa-regular{
+    padding-right: 0.7rem;
+}
+
+button {
+    background-color: #A491D2;
+    color: #CDC3E6;
+    border: none;
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+    
+}
+
+button:hover {
+    background-color:#D4DCFF;
+    cursor: pointer;
+    
+}
+
+.new-chat{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.chats {
+    display: flex;
+    padding-left: 25px;
+    padding: 1rem 1.25rem 1rem 1.6rem;
+    border-bottom: #949191 solid 1px;
+}
+
+.chats img{
+    height: 3rem;
+    border-radius: 50%;
+    border: #e0e0e0 solid 1px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #BEC1BB;
+}
+main img{
+    border-radius: 0.8rem;
+    height: 50%; 
+}
+
