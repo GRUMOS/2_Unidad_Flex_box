@@ -81,11 +81,11 @@ button:hover {
     padding: 1rem;
 }
 
-.chats {
-    display: flex;
+.chats {    
     padding-left: 25px;
     padding: 1rem 1.25rem 1rem 1.6rem;
     border-bottom: #949191 solid 1px;
+    flex-direction: column;
 }
 
 .chats img{
